@@ -1,0 +1,12 @@
+2024-11-29 09:59:22,453 - ERROR - Error loading OPML file: [Errno 2] No such file or directory: 'feeds.opml'
+2024-11-29 09:59:22,453 - ERROR - Application error: [Errno 2] No such file or directory: 'feeds.opml'
+2024-11-29 10:00:13,885 - ERROR - Error loading OPML file: [Errno 2] No such file or directory: 'feeds.opml'
+2024-11-29 10:00:13,885 - ERROR - Application error: [Errno 2] No such file or directory: 'feeds.opml'
+2024-11-29 10:00:19,944 - INFO - Loaded 1038 feeds from OPML file
+2024-11-29 10:00:19,945 - INFO - Removed 0 duplicate feeds
+2024-11-29 10:02:42,300 - ERROR - Error loading OPML file: This package only supports OPML 2.0 specification
+2024-11-29 10:02:42,302 - ERROR - Application error: This package only supports OPML 2.0 specification
+2024-11-29 10:03:34,603 - ERROR - Error loading OPML file: Required outline attribute "text" not found
+2024-11-29 10:03:34,605 - ERROR - Application error: Required outline attribute "text" not found
+2024-11-29 10:07:06,230 - INFO - Loaded 1038 feeds from OPML file
+2024-11-29 10:07:06,231 - INFO - Removed 0 duplicate feeds
