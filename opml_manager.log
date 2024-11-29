@@ -10,3 +10,684 @@
 2024-11-29 10:03:34,605 - ERROR - Application error: Required outline attribute "text" not found
 2024-11-29 10:07:06,230 - INFO - Loaded 1038 feeds from OPML file
 2024-11-29 10:07:06,231 - INFO - Removed 0 duplicate feeds
+2024-11-29 10:32:32,981 - INFO - Loaded 1038 feeds from OPML file
+2024-11-29 10:32:32,982 - INFO - Removed 0 duplicate feeds
+2024-11-29 10:36:37,533 - INFO - Loaded 1038 feeds from OPML file
+2024-11-29 10:36:37,534 - INFO - Removed 0 duplicate feeds
+2024-11-29 10:37:16,073 - INFO - Loaded 20 feeds from OPML file
+2024-11-29 10:37:16,075 - INFO - Removed 0 duplicate feeds
+2024-11-29 10:37:37,066 - ERROR - Application error: 'time.struct_time' object cannot be interpreted as an integer
+2024-11-29 10:38:02,785 - INFO - Loaded 20 feeds from OPML file
+2024-11-29 10:38:02,786 - INFO - Removed 0 duplicate feeds
+2024-11-29 10:38:35,037 - INFO - Moved feed Om Malik to deleted feeds
+2024-11-29 10:38:40,229 - INFO - Saved OPML file to feeds.opml
+2024-11-29 10:42:07,889 - INFO - Saved 2 invalid feeds to invalid_feeds.opml
+2024-11-29 10:42:07,889 - INFO - Loaded 17 valid feeds from OPML file
+2024-11-29 10:42:07,889 - WARNING - Found 2 invalid feeds
+2024-11-29 10:42:10,983 - INFO - Removed 0 duplicate feeds
+2024-11-29 10:43:35,112 - INFO - Saved 2 invalid feeds to invalid_feeds.opml
+2024-11-29 10:43:35,112 - INFO - Loaded 17 valid feeds from OPML file
+2024-11-29 10:43:35,112 - WARNING - Found 2 invalid feeds
+2024-11-29 10:43:36,408 - INFO - Removed 0 duplicate feeds
+2024-11-29 10:43:45,317 - INFO - Saved OPML file to feeds.opml
+2024-11-29 10:43:48,566 - INFO - Loaded 17 valid feeds from OPML file
+2024-11-29 10:43:48,566 - WARNING - Found 0 invalid feeds
+2024-11-29 10:43:48,567 - INFO - Removed 0 duplicate feeds
+2024-11-29 10:44:16,619 - ERROR - Application error: 'time.struct_time' object cannot be interpreted as an integer
+2024-11-29 10:44:56,875 - INFO - Loaded 17 valid feeds from OPML file
+2024-11-29 10:44:56,875 - WARNING - Found 0 invalid feeds
+2024-11-29 10:44:56,876 - INFO - Removed 0 duplicate feeds
+2024-11-29 10:46:01,496 - INFO - Saved 637 invalid feeds to invalid_feeds.opml
+2024-11-29 10:46:01,496 - INFO - Loaded 401 valid feeds from OPML file
+2024-11-29 10:46:01,496 - WARNING - Found 637 invalid feeds
+2024-11-29 10:46:12,163 - INFO - Removed 0 duplicate feeds
+2024-11-29 10:48:57,642 - WARNING - First attempt connection error for http://blog.eiknarf.com/rss: Cannot connect to host blog.eiknarf.com:80 ssl:default [nodename nor servname provided, or not known]
+2024-11-29 10:48:57,727 - WARNING - First attempt connection error for http://blogsv2.qobuz.com/qobuz-blog-en/feed/: Cannot connect to host blogsv2.qobuz.com:80 ssl:default [nodename nor servname provided, or not known]
+2024-11-29 10:48:57,728 - WARNING - First attempt connection error for https://vitalik.ca/feed.xml: Cannot connect to host vitalik.ca:443 ssl:default [nodename nor servname provided, or not known]
+2024-11-29 10:48:57,752 - WARNING - First attempt connection error for http://webfeeds.brookings.edu/brookingsrss/projects/hamiltonproject?format=xml: Cannot connect to host webfeeds.brookings.edu:80 ssl:default [nodename nor servname provided, or not known]
+2024-11-29 10:48:57,753 - WARNING - First attempt connection error for https://progressstudi.es/feed/: Cannot connect to host progressstudi.es:443 ssl:default [nodename nor servname provided, or not known]
+2024-11-29 10:48:57,761 - WARNING - First attempt connection error for https://blog.origin.popcorncomputer.com/feed/: Cannot connect to host blog.origin.popcorncomputer.com:443 ssl:default [nodename nor servname provided, or not known]
+2024-11-29 10:48:57,803 - WARNING - First attempt failed for http://waxinandmilkin.com/rss: HTTP 500
+2024-11-29 10:48:57,835 - WARNING - First attempt connection error for https://www.dieselsweeties.com/ds-unifeed.xml: Cannot connect to host www.dieselsweeties.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')]
+2024-11-29 10:48:58,270 - WARNING - First attempt parse error for https://furbo.org/feed/json: <unknown>:2:0: not well-formed (invalid token)
+2024-11-29 10:48:58,804 - WARNING - First attempt parse error for https://carlsbad1819.wordpress.com/feed/: <unknown>:138:5: mismatched tag
+2024-11-29 10:48:59,094 - WARNING - First attempt parse error for https://onefoottsunami.com/feed/json/: <unknown>:2:0: not well-formed (invalid token)
+2024-11-29 10:48:59,200 - WARNING - First attempt failed for https://www.lesswrong.com/feed.xml?view=curated-rss: HTTP 403
+2024-11-29 10:48:59,813 - WARNING - First attempt failed for http://www.theworldsbestever.com/feed/: HTTP 404
+2024-11-29 10:48:59,992 - WARNING - First attempt failed for http://feedproxy.google.com/brainpickings/rss: HTTP 404
+2024-11-29 10:49:00,210 - WARNING - First attempt parse error for http://feeds.feedburner.com/Art21Blog: <unknown>:204:2: mismatched tag
+2024-11-29 10:49:00,263 - WARNING - First attempt failed for http://feeds.feedburner.com/databreachtoday/com: HTTP 404
+2024-11-29 10:49:00,263 - WARNING - First attempt failed for https://catandgirl.com/feed/: HTTP 403
+2024-11-29 10:49:00,290 - WARNING - First attempt parse error for https://inessential.com/feed.json: <unknown>:2:0: not well-formed (invalid token)
+2024-11-29 10:49:00,312 - WARNING - First attempt failed for http://feeds.feedburner.com/databreachtoday/uk: HTTP 404
+2024-11-29 10:49:00,361 - WARNING - First attempt failed for http://feedproxy.google.com/nymag/fashion: HTTP 404
+2024-11-29 10:49:00,582 - WARNING - First attempt failed for http://fuckyouverymuch.dk/rss: HTTP 404
+2024-11-29 10:49:00,623 - WARNING - First attempt connection error for https://prometheus.med.utah.edu/~bwjones/feed/: Cannot connect to host prometheus.med.utah.edu:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')]
+2024-11-29 10:49:01,140 - WARNING - First attempt failed for https://www.pewresearch.org/internet/feed/: HTTP 404
+2024-11-29 10:49:01,244 - WARNING - First attempt failed for https://www.extremetech.com/feed: HTTP 403
+2024-11-29 10:49:01,244 - WARNING - First attempt failed for https://www.dsausa.org/feed/: HTTP 403
+2024-11-29 10:49:01,245 - WARNING - First attempt failed for https://itsgoingdown.org/feed/: HTTP 403
+2024-11-29 10:49:01,274 - WARNING - First attempt failed for https://johnedwinmason.typepad.com/john_edwin_mason_photogra/rss.xml: HTTP 403
+2024-11-29 10:49:01,431 - WARNING - First attempt failed for https://www.stereophile.com/rss.xml: HTTP 403
+2024-11-29 10:49:01,434 - WARNING - First attempt failed for https://sentencing.typepad.com/sentencing_law_and_policy/index.rdf: HTTP 403
+2024-11-29 10:49:01,488 - WARNING - First attempt parse error for https://mcfunley.com/feed/atom: <unknown>:3:0: junk after document element
+2024-11-29 10:49:02,434 - WARNING - First attempt parse error for http://www.notmartha.org/feed/: <unknown>:5:202: not well-formed (invalid token)
+2024-11-29 10:49:02,453 - WARNING - First attempt parse error for https://www.kickscondor.com/feed.json: <unknown>:2:0: not well-formed (invalid token)
+2024-11-29 10:49:02,699 - WARNING - First attempt parse error for https://www.manton.org/feed.json: <unknown>:2:0: not well-formed (invalid token)
+2024-11-29 10:49:02,826 - WARNING - First attempt failed for https://istillshootfilm.org/rss: HTTP 404
+2024-11-29 10:49:03,710 - WARNING - First attempt failed for https://www.kenrockwell.com/rss.php: HTTP 403
+2024-11-29 10:49:03,997 - WARNING - First attempt failed for https://diff.substack.com/feed: HTTP 400
+2024-11-29 10:49:04,049 - WARNING - First attempt failed for https://www.opensecrets.org/news/feed: HTTP 403
+2024-11-29 10:49:04,049 - WARNING - First attempt failed for https://www.wineterroirs.com/atom.xml: HTTP 403
+2024-11-29 10:49:04,049 - WARNING - First attempt failed for https://spurious.typepad.com/spurious/atom.xml: HTTP 403
+2024-11-29 10:49:04,050 - WARNING - First attempt failed for https://filtergrade.com/feed/: HTTP 403
+2024-11-29 10:49:04,088 - WARNING - First attempt failed for https://ftrain.substack.com/feed: HTTP 404
+2024-11-29 10:49:04,745 - WARNING - First attempt failed for https://meansofcreation.substack.com/feed: HTTP 404
+2024-11-29 10:49:04,791 - WARNING - First attempt failed for https://joyana.fr/feed/: HTTP 403
+2024-11-29 10:49:05,151 - WARNING - First attempt failed for https://www.forbes.com/cybersecurity/feed/: HTTP 404
+2024-11-29 10:49:06,021 - WARNING - First attempt failed for https://darknetlive.com/index.xml: HTTP 523
+2024-11-29 10:49:06,025 - WARNING - First attempt failed for https://www.spoon-tamago.com/feed/: HTTP 403
+2024-11-29 10:49:06,072 - WARNING - First attempt parse error for https://www.brookings.edu/feed/: <unknown>:51:0: undefined entity
+2024-11-29 10:49:06,088 - WARNING - First attempt connection error for https://www.strifeblog.org/feed/: Cannot connect to host www.strifeblog.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-11-29 10:49:08,261 - WARNING - First attempt parse error for https://rockysandstudio.com/tag/news/feed: <unknown>:16:12: unbound prefix
+2024-11-29 10:49:08,326 - WARNING - First attempt failed for http://artfcity.com/feed/: HTTP 504
+2024-11-29 10:49:08,342 - WARNING - First attempt connection error for https://debate.forttmedia.com/feed: Cannot connect to host debate.forttmedia.com:443 ssl:default [nodename nor servname provided, or not known]
+2024-11-29 10:49:08,343 - WARNING - First attempt connection error for https://mood.kevc.xyz/rss: Cannot connect to host mood.kevc.xyz:443 ssl:default [nodename nor servname provided, or not known]
+2024-11-29 10:49:08,345 - WARNING - First attempt connection error for https://marrianiclothing.com/feed/: Cannot connect to host marrianiclothing.com:443 ssl:default [nodename nor servname provided, or not known]
+2024-11-29 10:49:10,523 - WARNING - First attempt failed for https://ez.substack.com/feed: HTTP 400
+2024-11-29 10:49:10,564 - WARNING - First attempt parse error for https://www.brookings.edu/comments/feed/: <unknown>:22:125: not well-formed (invalid token)
+2024-11-29 10:49:10,572 - WARNING - First attempt connection error for https://unraveledpress.com/rss.xml: Cannot connect to host unraveledpress.com:443 ssl:default [nodename nor servname provided, or not known]
+2024-11-29 10:49:10,574 - WARNING - First attempt connection error for http://www.hometheater.com/rss.xml: Cannot connect to host www.hometheater.com:80 ssl:default [nodename nor servname provided, or not known]
+2024-11-29 10:49:10,776 - WARNING - First attempt timeout for https://nnw.ranchero.com/feed.xml
+2024-11-29 10:49:10,776 - WARNING - First attempt timeout for https://benanne.github.io/feed.xml
+2024-11-29 10:49:10,776 - WARNING - First attempt timeout for https://blog.flipperzero.one/rss/
+2024-11-29 10:49:10,776 - WARNING - First attempt timeout for https://bigtechnology.substack.com/feed
+2024-11-29 10:49:10,776 - WARNING - First attempt timeout for https://commonreader.substack.com/feed
+2024-11-29 10:49:10,776 - WARNING - First attempt timeout for https://taylorlorenz.substack.com/feed
+2024-11-29 10:49:10,776 - WARNING - First attempt timeout for https://theprofile.substack.com/feed
+2024-11-29 10:49:10,776 - WARNING - First attempt timeout for https://razib.substack.com/feed
+2024-11-29 10:49:10,776 - WARNING - First attempt timeout for https://emilyoster.substack.com/feed
+2024-11-29 10:49:10,776 - WARNING - First attempt timeout for https://li.substack.com/feed
+2024-11-29 10:49:10,776 - WARNING - First attempt timeout for https://pawlean.com/feed/
+2024-11-29 10:49:10,777 - WARNING - First attempt timeout for https://wfh.substack.com/feed
+2024-11-29 10:49:10,777 - WARNING - First attempt timeout for https://moishes-ride.blogspot.com/feeds/posts/default
+2024-11-29 10:49:10,777 - WARNING - First attempt timeout for https://subconscious.substack.com/feed
+2024-11-29 10:49:10,777 - WARNING - First attempt timeout for https://fly.io/blog/feed.xml
+2024-11-29 10:49:10,777 - WARNING - First attempt timeout for https://systemsapproach.substack.com/feed
+2024-11-29 10:49:10,777 - WARNING - First attempt timeout for https://danluu.com/atom.xml
+2024-11-29 10:49:10,777 - WARNING - First attempt timeout for https://nonsite.org/feed/
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://www.brilimitless.com/blog-feed.xml
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://www.gregoryhan.com/feed/
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://verticalgallery.com/blogs/news.atom
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://www.themarissarae.com/blog-feed.xml
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://brandonsmith.com/feed/
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://www.spkrbx.com/blog-feed.xml
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://www.soulinchicago.org/feed/
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://www.glctheism.com/blog-feed.xml
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://urbangrindtv.com/feed/
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://www.usprisonculture.com/blog/feed/
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://nikkilynette.com/feed/
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://www.lutasecurity.com/blog-feed.xml
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://zerofatigue.com/rss
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://farahpandith.com/feed/
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://clintrobert.com/blogs/archive.atom
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://www.somebits.com/linkblog/index.atom
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://www.nobadmemories.com/feed.xml
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://silviamoreno-garcia.com/feed/
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for http://ethanzuckerman.com/feed/
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://helloyoucreatives.com/rss
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://marcuswolf.com/feed/
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://www.amivitale.com/feed/
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://www.jihadica.com/feed/
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://www.beckyhansmeyer.com/feed/
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://mila.quebec/en/comments/feed/
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for http://chicagotruborn.com/feed/
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://www.eugenewei.com/blog?format=rss
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://blacktechpipeline.com/jobs/feed/
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://www.soufangroup.com/comments/feed/
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://botnik.org/feed/
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://mila.quebec/en/feed/
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://blog.giovanh.com/feeds/atom.xml
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://blog.giovanh.com/feeds/rss.xml
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for http://felixuribe.com/work?format=rss
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://katvolk.com/wp/?feed=rss2
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://mina.codes/feed.xml
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://sowbug.com/index.xml
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://highearthorbit.com/feed/atom/
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://paulgormanis.com/?feed=rss2
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://feedbin.com/starred/058bb1a70dedeae2f5c2b476e5c0c93f.xml
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://feedbin.com/starred/b817554fba66eeb2176831ecd4c30455.xml
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for http://wvvolumes.com/feed/
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for http://bleedingskull.com/feed/
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://planettreky.com/feed/
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://blog.openmined.org/rss/
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://mekka-tech.com/feed/feed.xml
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://erinkissane.com/feed.rss
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://www.acookblog.com/feed
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://nlgchicago.org/feed/
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://deraydavis.com/feed/
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://chicagoartdepartment.org/feed/
+2024-11-29 10:49:10,778 - WARNING - First attempt timeout for https://aaan.org/feed/
+2024-11-29 10:49:10,779 - WARNING - First attempt timeout for https://interconnected.org/home/feed
+2024-11-29 10:49:10,779 - WARNING - First attempt timeout for https://www.rocketandsquash.com/feed/
+2024-11-29 10:49:10,779 - WARNING - First attempt timeout for https://kevquirk.com/feed
+2024-11-29 10:49:10,779 - WARNING - First attempt timeout for https://www.nordljus.co.uk/atom/?section=en
+2024-11-29 10:49:10,779 - WARNING - First attempt timeout for https://pluralistic.net/feed/
+2024-11-29 10:49:10,779 - WARNING - First attempt timeout for https://www.disconnect.blog/feed
+2024-11-29 10:49:10,779 - WARNING - First attempt timeout for https://kavigupta.com/feed/
+2024-11-29 10:49:10,779 - WARNING - First attempt timeout for https://proton.me/blog/feed
+2024-11-29 10:49:10,779 - WARNING - First attempt timeout for https://rap-catchup.com/feed/
+2024-11-29 10:49:10,779 - WARNING - First attempt timeout for https://maia.crimew.gay/feed.xml
+2024-11-29 10:49:10,779 - WARNING - First attempt timeout for https://hynek.me/index.xml
+2024-11-29 10:49:10,779 - WARNING - First attempt timeout for https://rys.io/en/feed.rss
+2024-11-29 10:49:10,779 - WARNING - First attempt timeout for https://solar.lowtechmagazine.com/index.xml
+2024-11-29 10:49:10,779 - WARNING - First attempt timeout for https://ludic.mataroa.blog/rss/
+2024-11-29 10:49:10,779 - WARNING - First attempt timeout for https://hugokaaman.com/feed/
+2024-11-29 10:49:10,779 - WARNING - First attempt timeout for https://incite-national.org/feed/
+2024-11-29 10:49:10,779 - WARNING - First attempt timeout for https://www.bunniestudios.com/blog/?feed=rss2
+2024-11-29 10:49:10,779 - WARNING - First attempt timeout for https://www.underconsideration.com/brandnew/atom.xml
+2024-11-29 10:49:10,779 - WARNING - First attempt timeout for https://the-rosenrot.com/feed/
+2024-11-29 10:49:10,779 - WARNING - First attempt timeout for https://world.hey.com/jason/feed.atom
+2024-11-29 10:49:10,779 - WARNING - First attempt timeout for https://sparrowmedia.net/feed/
+2024-11-29 10:49:10,779 - WARNING - First attempt timeout for https://www.platformer.news/feed
+2024-11-29 10:49:10,779 - WARNING - First attempt timeout for http://www.lostateminor.com/feed/
+2024-11-29 10:49:10,779 - WARNING - First attempt timeout for https://cybersecurity.att.com/site/blog-all-rss
+2024-11-29 10:49:10,780 - WARNING - First attempt timeout for http://theholenyc.com/feed/
+2024-11-29 10:49:10,780 - WARNING - First attempt timeout for https://www.artforum.com/feed/
+2024-11-29 10:49:10,780 - WARNING - First attempt timeout for https://dud.org/recent.xml
+2024-11-29 10:49:10,780 - WARNING - First attempt timeout for http://stevecheney.com/feed/atom/
+2024-11-29 10:49:10,780 - WARNING - First attempt timeout for https://felixreda.eu/de/feed/
+2024-11-29 10:49:10,780 - WARNING - First attempt timeout for http://www.johncoulthart.com/feuilleton/feed/
+2024-11-29 10:49:10,780 - WARNING - First attempt timeout for https://clarkesworldmagazine.com/feed/
+2024-11-29 10:49:10,780 - WARNING - First attempt timeout for https://tins.rklau.com/feed/
+2024-11-29 10:49:10,780 - WARNING - First attempt timeout for https://justinpot.com/feed/
+2024-11-29 10:49:10,780 - WARNING - First attempt timeout for https://ekaprdweb01.eurekalert.org/rss.xml
+2024-11-29 10:49:10,781 - WARNING - First attempt timeout for https://tracydurnell.com/feed/
+2024-11-29 10:49:10,781 - WARNING - First attempt timeout for https://www.nplusonemag.com/feed/
+2024-11-29 10:49:10,781 - WARNING - First attempt timeout for https://ablordesays.com/feed/
+2024-11-29 10:49:10,781 - WARNING - First attempt timeout for https://read.first1000.co/feed
+2024-11-29 10:49:10,781 - WARNING - First attempt timeout for https://gilest.org/feed/index.xml
+2024-11-29 10:49:10,781 - WARNING - First attempt timeout for https://summerbrennan.substack.com/feed
+2024-11-29 10:49:10,781 - WARNING - First attempt timeout for https://chias.blog/feed/
+2024-11-29 10:49:10,781 - WARNING - First attempt timeout for https://www.theinsight.org/feed
+2024-11-29 10:49:10,781 - WARNING - First attempt timeout for https://ramp.substack.com/feed
+2024-11-29 10:49:10,781 - WARNING - First attempt timeout for https://www.nationalaffairs.com/rss/publications.asp
+2024-11-29 10:49:10,781 - WARNING - First attempt timeout for https://www.garbageday.email/feed
+2024-11-29 10:49:10,781 - WARNING - First attempt timeout for https://til.simonwillison.net/tils/feed.atom
+2024-11-29 10:49:10,781 - WARNING - First attempt timeout for https://www.lennysnewsletter.com/feed
+2024-11-29 10:49:10,781 - WARNING - First attempt timeout for https://astralcodexten.substack.com/feed
+2024-11-29 10:49:10,781 - WARNING - First attempt timeout for https://aint.johnmark.org/feed/
+2024-11-29 10:49:10,781 - WARNING - First attempt timeout for http://beautifuldecay.com/feed/
+2024-11-29 10:49:10,781 - WARNING - First attempt timeout for https://computer.rip/rss.xml
+2024-11-29 10:49:10,781 - WARNING - First attempt timeout for https://blog.remark.as/feed/
+2024-11-29 10:49:10,781 - WARNING - First attempt timeout for https://thezvi.substack.com/feed
+2024-11-29 10:49:10,781 - WARNING - First attempt timeout for http://www.themoneyillusion.com/?feed=rss2
+2024-11-29 10:49:10,782 - WARNING - First attempt timeout for http://zorkiphoto.co.uk/feed/
+2024-11-29 10:49:10,782 - WARNING - First attempt timeout for https://www.readmargins.com/feed
+2024-11-29 10:49:10,782 - WARNING - First attempt timeout for https://www.theabsolutesound.com/feed/
+2024-11-29 10:49:10,782 - WARNING - First attempt timeout for https://iffybooks.net/feed/
+2024-11-29 10:49:10,782 - WARNING - First attempt timeout for http://dangillmor.com/feed/
+2024-11-29 10:49:10,782 - WARNING - First attempt timeout for https://bdtechtalks.substack.com/feed
+2024-11-29 10:49:10,782 - WARNING - First attempt timeout for https://www.aiweirdness.com/rss/
+2024-11-29 10:49:10,782 - WARNING - First attempt timeout for https://scaachi.substack.com/feed
+2024-11-29 10:49:10,783 - WARNING - First attempt timeout for https://lyonheart.us/index.xml
+2024-11-29 10:49:10,783 - WARNING - First attempt timeout for https://webcurios.co.uk/feed/
+2024-11-29 10:49:10,783 - WARNING - First attempt timeout for https://www.propublica.org/feeds/propublica/main
+2024-11-29 10:49:10,783 - WARNING - First attempt timeout for https://jvns.ca/til/atom.xml
+2024-11-29 10:49:10,783 - WARNING - First attempt timeout for https://www.notboring.co/feed
+2024-11-29 10:49:10,783 - WARNING - First attempt timeout for https://richardfelix.com/feed.xml
+2024-11-29 10:49:10,783 - WARNING - First attempt timeout for https://www.preetamnath.com/blog/rss.xml
+2024-11-29 10:49:10,783 - WARNING - First attempt timeout for http://blog.yimmyayo.com/rss
+2024-11-29 10:49:10,783 - WARNING - First attempt timeout for https://leahneukirchen.org/trivium/index.atom
+2024-11-29 10:49:10,783 - WARNING - First attempt timeout for http://www.rollingstone.com/politics.rss
+2024-11-29 10:49:10,783 - WARNING - First attempt timeout for https://future.com/feed/
+2024-11-29 10:49:10,783 - WARNING - First attempt timeout for https://chicagoboyz.net/feed
+2024-11-29 10:49:10,783 - WARNING - First attempt timeout for https://tedgioia.substack.com/feed
+2024-11-29 10:49:10,783 - WARNING - First attempt timeout for https://thegradientpub.substack.com/feed
+2024-11-29 10:49:10,783 - WARNING - First attempt timeout for https://livelaugh.blog/rss.xml
+2024-11-29 10:49:10,783 - WARNING - First attempt timeout for https://go.dev/blog/feed.atom
+2024-11-29 10:49:10,783 - WARNING - First attempt timeout for https://theovershoot.co/feed
+2024-11-29 10:49:10,783 - WARNING - First attempt timeout for https://doomberg.substack.com/feed
+2024-11-29 10:49:10,783 - WARNING - First attempt timeout for https://www.blogger.com/feeds/3157916/posts/default?alt=rss&orderby=published
+2024-11-29 10:49:10,783 - WARNING - First attempt timeout for https://yetanothervalueblog.substack.com/feed
+2024-11-29 10:49:10,783 - WARNING - First attempt timeout for https://auren.substack.com/feed
+2024-11-29 10:49:10,783 - WARNING - First attempt timeout for https://jdahl.substack.com/feed
+2024-11-29 10:49:10,783 - WARNING - First attempt timeout for https://marshallk.com/feed
+2024-11-29 10:49:10,783 - WARNING - First attempt timeout for https://topsecretumbra.substack.com/feed
+2024-11-29 10:49:10,783 - WARNING - First attempt timeout for https://keikolynn.com/feed/
+2024-11-29 10:49:10,783 - WARNING - First attempt timeout for https://www.designswarm.com/blog/feed/
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://chicagoreader.com/feed/
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://tailscale.com/changelog/index.xml
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://commoditycontext.substack.com/feed
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://maxread.substack.com/feed
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://evjang.com/feed.xml
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://www.cisa.gov/uscert/ncas/alerts.xml
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://www.thedrive.com/feed
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://shehackspurple.ca/feed/
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://savage.love/feed/
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://conversableeconomist.com/feed/
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://venturedesktop.substack.com/feed
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://blog.seanbonner.com/feed/
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://jpg100.substack.com/feed
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://paco.me/feed.xml
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://www.youtube.com/feeds/videos.xml?channel_id=UCXflF3_PL_QuDX1CsCImuFA
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://feeds.feedburner.com/joi-ito/weblog
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://newsletter.pragmaticengineer.com/feed
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://www.understandingwar.org/rss.xml
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://eugeneyan.com/rss/
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://www.promarket.org/feed/
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://www.hifipig.com/feed/
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://www.fabricatedknowledge.com/feed
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://astrid.tech/atom.xml
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://media.rss.com/theosintbunker/feed.xml
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://checkmyads.org/branded/rss/
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://davekarpf.substack.com/feed
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://tailscale.com/security-bulletins/index.xml
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://syncretica.substack.com/feed
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://yager.io/feed/
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://www.understandingwar.org/taxonomy/term/300/feed
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/spotlight/visual-investigations/rss.xml
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://kaya.dev/feed.rss
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://maajidnawaz.substack.com/feed
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://www.dwarkeshpatel.com/feed
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://lilianweng.github.io/index.xml
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://www.robinsloan.com/feed.xml
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://hifiplus.com/feed/
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://allthehacks.substack.com/feed
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://blog.kagi.com/rss.xml
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://tidyfirst.substack.com/feed
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://supernuclear.substack.com/feed
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://culture.ghost.io/rss/
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://garymarcus.substack.com/feed
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://invariant.substack.com/feed
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://www.techdirt.com/feed/
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://blog.bytebytego.com/feed
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://eliotpeper.com/feed
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://www.isnthappiness.com/?feed=rss2
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://rusi.org/rss/whats-new.xml
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://rusi.org/rss/latest-commentary.xml
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://rusi.org/rss/upcoming-events.xml
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://rusi.org/rss/latest-publications.xml
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://metz.substack.com/feed
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://www.samstack.io/feed
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://1900hotdog.com/feed/
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://lotsoflinks.substack.com/feed
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://thebusinessacademy.substack.com/feed
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://joshcollinsworth.com/api/rss.xml
+2024-11-29 10:49:10,786 - WARNING - First attempt timeout for https://www.modos.tech/blog/rss.xml
+2024-11-29 10:49:10,787 - WARNING - First attempt timeout for https://blog.kinopio.club/feed.json
+2024-11-29 10:49:10,787 - WARNING - First attempt timeout for https://notes.musing.studio/feed/
+2024-11-29 10:49:10,787 - WARNING - First attempt timeout for https://faizalwestcott.com/blog?format=rss
+2024-11-29 10:49:10,787 - WARNING - First attempt timeout for https://www.ruthcrilly.co.uk/feed/
+2024-11-29 10:49:10,787 - WARNING - First attempt timeout for https://khymos.org/feed/
+2024-11-29 10:49:10,787 - WARNING - First attempt timeout for https://rosemaryorchard.com/feed.xml
+2024-11-29 10:49:10,787 - WARNING - First attempt timeout for https://krow.livejournal.com/data/atom/
+2024-11-29 10:49:10,792 - WARNING - First attempt timeout for https://flowingdata.com/feed
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://pen-online.com/feed/
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://www.lewisenterprises.blog/feed
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://www.rand.org/about/people/l/lee_mary.xml
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://davekasten.substack.com/feed
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://www.rand.org/about/people/d/dowse_andrew.xml
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://www.alinetrede.ch/home?format=rss
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://nuovecorrispondenze.wordpress.com/feed/
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://write.as/evanp/feed/
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://wastykwrites.substack.com/feed
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://www.rand.org/about/people/g/grossman_derek.xml
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://funprogramming.substack.com/feed
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://businessacademy.substack.com/feed
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for http://www.computeraudiophile.com/external.php?do=rss&type=newcontent&sectionid=1&days=120&count=10
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://www.aisnakeoil.com/feed
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for http://feeds.feedburner.com/FredWilsonDotVc
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://aegir.org/words/feed/
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://peekbehindthenumbers.substack.com/feed
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://www.rand.org/about/people/s/steiner_elizabeth.xml
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://www.glenncharlesphotography.com/home-gcp?format=rss
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for http://graphicine.com/feed/
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://medium.com/feed/@andreasmuelder
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://buttondown.email/cassidoo/rss
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://www.rand.org/about/people/p/prado_tuma_andrea.xml
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://citrini.substack.com/feed
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://blog.mareenfischinger.com/rss
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://www.rand.org/about/people/s/smith_troy_d.xml
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://www.rand.org/about/people/s/schwartz_heather_l.xml
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://www.sciencefictions.org/feed
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://newsletter.squishy.computer/feed
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://boehs.org/in/blog.xml
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://www.oneusefulthing.org/feed
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://www.rand.org/about/people/w/ward_jason_m.xml
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://casayellow.com/feed/
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://feedme-server.onrender.com/feeds/e71877af-56af-4a0c-8186-edf4a76e4f18.rss
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://pentaxrumors.com/feed/
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://medium.com/feed/@ashevat
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://hamel.dev/index.xml
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://james.cridland.net/index.xml
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://www.pfrazee.com/feed.xml
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://www.rand.org/about/people/p/preston_benjamin_lee.xml
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for http://futuretrash.blogspot.com/feeds/posts/default
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://futureofliving.substack.com/feed
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://every.to/superorganizers/feed.xml
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://rss.beehiiv.com/feeds/ZRiesnGI0u.xml
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://www.counteroffensive.news/feed
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://macwright.com/micro/rss.xml
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://rss.plex.tv/0174f145-adc8-482b-9dc6-d6b5a7d4b26a
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://en.wikipedia.org/w/index.php?title=Harper_Reed&feed=atom&action=history
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://reading.lol/index.xml
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://aftermath.site/rss
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://chicagocreatives.co/feed/
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://www.youtube.com/feeds/videos.xml?channel_id=UCKsogAP7BVPBrC5DYWBANYw
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://ikeepitsimplestupid.tumblr.com/rss
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://pbarry.tumblr.com/rss
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://fediverse-report.writeas.com/feed/
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://mindandiron.substack.com/feed
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for http://thatswherebatslive.blogspot.com/atom.xml
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://aftermath.site/feed
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://dansinker.com/feed.xml
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://thegongshow.tumblr.com/rss
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://pmarca.substack.com/feed
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://importai.substack.com/feed
+2024-11-29 10:49:10,793 - WARNING - First attempt timeout for https://www.youtube.com/feeds/videos.xml?channel_id=UCpnZgRNJ8kt-9mMM2URp6iA
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://www.youtube.com/feeds/videos.xml?channel_id=UC_-mAgGObbO8WAMhybAusXA
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://api.broox.com/v1/blogs/rss
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://www.karipost.com/blog/feed/
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://mulesmusings.substack.com/feed
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://www.thespl.it/feed
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://fuckyeahfatdykes.tumblr.com/rss
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://themoviegawd.wordpress.com/feed/
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://dylan.blog/index.xml
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://intelcrab.com/feed/
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://www.youtube.com/feeds/videos.xml?channel_id=UC4etUL_vYXjZqo1hpaMfNlg
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://mccrary.auburn.edu/feed/
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://effectiveaccelerationism.substack.com/feed
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://observingjapan.substack.com/feed
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://naughtynoodlee.tumblr.com/rss
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for http://www.theblondesalad.com/feeds/posts/default
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://extra-pillz.tumblr.com/rss
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://ashelina.substack.com/feed
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://edelweiss.substack.com/feed
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://islandsferalcatproject.org/feed/
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://indictment.fyi/feed.xml
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://leicarumors.com/feed/
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://infosystir.blogspot.com/feeds/posts/default
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://www.youtube.com/feeds/videos.xml?channel_id=UC28WVzf3qFoJ5gwT-kJybaQ
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://medium.com/feed/@skytaylor
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://clintwatts.substack.com/feed
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://www.rand.org/about/people/d/dopp_alex_r.xml
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://infosec.exchange/@dlilja.rss
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://nickcho.tumblr.com/rss
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://www.rand.org/about/people/l/ligor_douglas_c.xml
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for http://www.sophia-jones.com/welcome-pacific?format=rss
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://pjudge.com/feed/atom/
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://feeldesain.tumblr.com/rss
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://rickwebb.substack.com/feed
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://theplaylisttraveler.wordpress.com/feed/
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://learnanalyticsengineering.substack.com/feed
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://ukdefencejournal.org.uk/author/defence-geek/feed/
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://seditionhunters.org/feed/
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for http://feeds.101cookbooks.com/101cookbooks
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://newsletter.mollywhite.net/feed
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://catvalente.substack.com/feed
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://probonobaker.typepad.com/probonobaker/index.rdf
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://www.youtube.com/feeds/videos.xml?channel_id=UC5OPJDHFZOzHMHuhs82V91A
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://www.brittanyapplegate.com/home-brine?format=rss
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://www.youtube.com/feeds/videos.xml?channel_id=UCpj1HuWs9FXvK8kQJT9B8WQ
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://damayanti.substack.com/feed
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://mirror.xyz/basche42.eth/feed/atom
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for http://artistsofchicago.blogspot.com/feeds/posts/default
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://aiguide.substack.com/feed
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://www.lawdork.com/feed
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://asharangappa.substack.com/feed
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for http://feeds.we-make-money-not-art.com/wmmna
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://www.youtube.com/feeds/videos.xml?channel_id=UCaoolxb0DjSK8pdpvf_Mzzg
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://www.readtpa.com/feed
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://www.youtube.com/feeds/videos.xml?channel_id=UCh817atE9uSQs4qgiwBZhFw
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://www.artofculture.org/home?format=rss
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://raymitheartist.com/home-nueva?format=rss
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://feeds.buzzsprout.com/2110403.rss
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://nerdculture.de/@discordian.rss
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://malcolmnance.substack.com/feed
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://www.wheresyoured.at/rss/
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for http://thehill.com/blogs/congress-blog?format=feed&type=rss
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://craphound.com/category/news/feed/
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://blog.mollywhite.net/feed.xml
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for http://blog.samaltman.com/posts.atom
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://www.lawfareblog.com/feed
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://www.grecology.org/feed
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://threatintelkitty.wordpress.com/feed/
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for http://www.twisternederland.com/feed/
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://kellyhayes.org/feed/
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://www.youtube.com/feeds/videos.xml?channel_id=UC1375waR66m1p0Vd6TZFv_A
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://www.butwhatfor.com/feed/
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://rss.beehiiv.com/feeds/40ZQ7CSldT.xml
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://buttondown.com/ownyourweb/rss
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://doc.searls.com/feed/
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://every.to/news/feed.xml
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://www.youtube.com/feeds/videos.xml?channel_id=UCaCmDofLQh0T6b3SCwMxa2g
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://www.philschmid.de/rss
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://awayrepairs.livejournal.com/data/atom
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://theplaylisttraveler.wordpress.com/comments/feed/
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://freeradicals.substack.com/feed
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://gkeenan.co/avgb/feed.xml
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://yatzer.tumblr.com/rss
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://aramzs.xyz/writing/feed.xml
+2024-11-29 10:49:10,794 - WARNING - First attempt timeout for https://www.madsqu1rrel.com/feed/
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for http://www.politico.com/rss/politics08.xml
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://paullightfoot.substack.com/feed
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://rss.beehiiv.com/feeds/owMwaGYU36.xml
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://akhaliq.substack.com/feed
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://www.blogger.com/feeds/6976837206592598259/posts/default
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://patrickfox.substack.com/feed
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://karenho.ca/feed/
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://jessicasternbooks.com/feed/
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://kyleorton.substack.com/feed
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://www.dominib.com/media-horizon?format=rss
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://www.bitsaboutmoney.com/archive/rss/
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://jeanhsu.substack.com/feed
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://www.youtube.com/feeds/videos.xml?channel_id=UC7OiVSXAAht8RkIz0_S_s4w
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://anemone.substack.com/feed
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://www.cat-int.org/index.php/feed/
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://www.hurstpublishers.com/feed/
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://sem.substack.com/feed
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://prisonjournalismproject.org/feed/
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for http://www.jamila-woods.com/landing?format=rss
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://www.gzeromedia.com/feeds/in-60-seconds/europe.rss
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for http://giorgialupi.com/work-1?format=rss
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://follow.it/peanut-butter-fingers-living-a-life-fueled-by-healthy-food-and-fitness
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://awww.substack.com/feed
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://tristanpollock.substack.com/feed
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://www.erininthemorning.com/feed
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://www.youtube.com/feeds/videos.xml?channel_id=UCixazTFbmqhE8C7AOmcrYJQ
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://publiccollectors.tumblr.com/rss
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://www.youtube.com/feeds/videos.xml?channel_id=UCDxOOv6icLY8Zk5XV1NyjYA
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://firstlook.org/theintercept/feed/
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://sassone.wordpress.com/feed/
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://aminadujean.substack.com/feed
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://www.youtube.com/feeds/videos.xml?channel_id=UChMngCbqFk6zFKIQ2TiIUfg
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://www.youtube.com/feeds/videos.xml?channel_id=UCaXHMu7DSzmhA5w9XbZFXeA
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://angelinadivine.tumblr.com/rss
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://www.latent.space/feed
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://artemtepler.substack.com/feed
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://www.youtube.com/feeds/videos.xml?channel_id=UCnxzhhh9uuTL2a3BkQ4MgXw
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://finbarrtimbers.substack.com/feed
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://www.thisismeteor.com/rss/
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://www.rand.org/about/people/s/szayna_thomas_s.xml
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://www.rand.org/about/people/r/richardson_andrea.xml
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://www.rand.org/about/people/g/gidengil_courtney_a.xml
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://medium.com/feed/duct-tape-ai
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://dataengineeringcentral.substack.com/feed
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://seamushughes.substack.com/feed
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://www.youtube.com/feeds/videos.xml?channel_id=UCIki9Ijlqa8yFFNG2luQYXA
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://rwebel.com/feed/
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://www.abujamajem.com/home?format=rss
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://gshartnett.github.io/feed.xml
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://oalexanderdk.substack.com/feed
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://deepdoc.substack.com/feed
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://cubicanalytics.substack.com/feed
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://whatstheword.tv/feed/
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://uneasymoney.com/feed/
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://www.forthepeoplecollective.org/feed/
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://ashleevance.substack.com/feed
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://www.investoraudio.io/feed
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://askgit.substack.com/feed
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://www.rand.org/about/people/p/predmore_zachary.xml
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://callmeslo.tumblr.com/rss
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://www.fxmacro.info/feed
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://adamgrant.substack.com/feed
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://noahgreenberg.substack.com/feed
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://www.rand.org/about/people/g/griffin_beth_ann.xml
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://www.rand.org/about/people/b/barnes-proby_dionne.xml
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://www.rand.org/about/people/c/cham_jonathan.xml
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://taylor.town/feed.xml
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://www.rand.org/about/people/m/meadows_sarah.xml
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://thewisdomofthecrowd.substack.com/feed
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://news.google.com/rss/search?q=%22harper+reed%22+chicago&hl=en-US&gl=US&ceid=US:en
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://www.rand.org/about/people/z/zaber_melanie_a.xml
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://blog.tmcnet.com/blog/rich-tehrani/feed
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://www.thesisdriven.com/feed
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://www.rand.org/about/people/h/huguet_alice.xml
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://themainemonitor.org/feed/
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://www.nomorehustleporn.com/rss/
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://www.youtube.com/feeds/videos.xml?channel_id=UChzg-qNNhCTzYPu2yEZTb9Q
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://www.rand.org/about/people/b/bouey_jennifer.xml
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://www.rand.org/about/people/h/heins_sara_e.xml
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://andydeanblog.com/feed/
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://www.rand.org/about/people/k/karam_rita_t.xml
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://snackytunes.substack.com/feed
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://granary.io/url?input=html&output=rss&url=https://jamesg.blog
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for http://aiphd.blogspot.com/atom.xml
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://curatedrabbitholes.substack.com/feed
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://www.tallwireless.com/feeds/all.atom.xml
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://www.narrativeark.xyz/feed
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://granary.io/url?input=html&output=atom&url=https://news.indieweb.org/en
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://www.latimes.com/people/marcus-yam.rss
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://www.rand.org/about/people/d/doss_christopher_joseph.xml
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://magazine.sebastianraschka.com/feed
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://gav.substack.com/feed
+2024-11-29 10:49:10,795 - WARNING - First attempt timeout for https://medium.com/feed/@IAmWillMadison
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://www.youtube.com/feeds/videos.xml?channel_id=UCR4Kw6Rz6EXWnSLnFkgMr3w
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://kipp.ly/atom.xml
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for http://loosedial.blogspot.com/feeds/posts/default
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://futility.typepad.com/futility/atom.xml
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://www.rand.org/about/people/m/massicot_dara.xml
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://www.dirtybubblemedia.com/feed
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://danyork.me/feed/
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://mew.tv/feeds/www.atom
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for http://ilovewildfox.blogspot.com/feeds/posts/default
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://glass.photo/harper/rss
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://instagramstylesnoop.tumblr.com/rss
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://www.jacobsilverman.com/feed
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for http://www.gabrielburt.com/feeds/posts/default
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://rss.beehiiv.com/feeds/6QXMLvJf2y.xml
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://news.google.com/rss/search?q=%22harper+reed%22+obama&hl=en-US&gl=US&ceid=US:en
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://rsshub.app/openai/blog
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://every.to/chain-of-thought/feed.xml
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://www.bobvulfov.com/home?format=rss
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://brendohare.tumblr.com/rss
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://www.fromjason.xyz/feed/feed.xml
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://flaminghydra.com/rss/
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://aipoliticalpulse.substack.com/feed
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://jdsemrau.substack.com/feed
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://buttondown.com/theswordandthesandwich/rss
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://www.feministgiant.com/feed
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://waveninja.substack.com/feed
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://rijmenants.blogspot.com/feeds/posts/default
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://hanime.livejournal.com/data/rss
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://www.404media.co/rss/
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://max.levch.in/rss
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://birchroots.ghost.io/rss/
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for http://lawofcosines.blogspot.com/atom.xml
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://www.compoundingquality.net/feed
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://www.linedoteditions.com/blogs/news.atom
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://cameronrwolfe.substack.com/feed
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://parttimeaudiophile.com/feed/
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://www.readaccelerated.com/feed
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://aisupremacy.substack.com/feed
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://www.continuousvariation.com/feed
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://leedrutman.substack.com/feed
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://feeds.feedblitz.com/theonlinephotographer
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for http://coolmaterial.com/feed/
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://lisastampnitzky.com/feed/
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://brad.livejournal.com/data/atom/
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://allymiller.info/feed/
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://blog.ledger.com/feed.xml
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://www.youtube.com/feeds/videos.xml?channel_id=UCbmDjlFaMH6r59l9XYjEgTw
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://www.youtube.com/feeds/videos.xml?channel_id=UCJ0FE7LuGJ3rk31t_sudnRA
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://stability.ai/blog?format=rss
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://gerjon.substack.com/feed
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://www.youtube.com/feeds/videos.xml?channel_id=UCUf4R4xX8f7OQWs9NEzYnMw
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://thegreatheisenberg.github.io/feed.xml
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for http://lakshvivek.blogspot.com/atom.xml
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://bold.7112182096.workers.dev/
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for http://docpop.org/feed/
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://franklyspeaking.substack.com/feed
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://celestimages.com/feed/
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://goodtools.substack.com/feed
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://artworldchicago.org/feed/
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://www.techemails.com/feed
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://www.pwnallthethings.com/feed
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://awayrepairs.livejournal.com/data/rss
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://www.apricitas.io/feed
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://mathewingram.com/work/index.php/feed/
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://www.blogger.com/feeds/4365386570174265949/posts/default
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://www.lawfareblog.com/rss.xml
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://www.interconnects.ai/feed
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://www.usermag.co/feed
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://harperreed.github.io/harper-alerts/feed.xml
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://www.worksinprogress.news/feed
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://www.bannedinyourstate.com/feed
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://disconnect.blog/rss/
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://rowanbradley.com/portfolio?format=rss
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for http://colloquialcookin.canalblog.com/rss
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://www.dashes.com/feed.xml
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://charm.sh/blog/rss.xml
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://www.semianalysis.com/feed
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://www.horrific-terrific.tech/feed
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://www.fast.ai/index.xml
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://austin.substack.com/feed
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://www.presentandcorrect.com/blogs/blog.atom
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://emcap.substack.com/feed
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://databased.pedramnavid.com/feed
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://michaelweissjournalist.com/f.json
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://hegghammer.com/feed/
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://haw-lin.com/rss
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://genehoots.substack.com/feed
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://www.forbes.com/sites/gaurisharma/feed/
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://evanp.me/feed/
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://www.sigmachris.com/welcome?format=rss
+2024-11-29 10:49:10,796 - WARNING - First attempt timeout for https://www.youtube.com/feeds/videos.xml?channel_id=UCYLs-0ucexcAxDrc5csulKw
+2024-11-29 10:49:10,797 - WARNING - First attempt timeout for https://www.toyya-pujol.com/home?format=rss
+2024-11-29 10:49:10,797 - WARNING - First attempt timeout for https://elisehu.substack.com/feed
+2024-11-29 10:49:10,797 - WARNING - First attempt timeout for https://www.robinrendle.com/feed.xml
+2024-11-29 10:49:10,797 - WARNING - First attempt timeout for http://ilovecharts.tumblr.com/rss
+2024-11-29 10:49:10,797 - WARNING - First attempt timeout for https://untangled.substack.com/feed
+2024-11-29 10:49:10,797 - WARNING - First attempt timeout for https://sacdunking.tumblr.com/rss
+2024-11-29 10:49:10,797 - WARNING - First attempt timeout for https://www.russellbeattie.com/notes/rss.xml
+2024-11-29 10:49:10,797 - WARNING - First attempt timeout for http://blog.aweissman.com/feeds/posts/default
+2024-11-29 10:49:10,797 - WARNING - First attempt timeout for https://thehill.com/homenews/senate/feed/
+2024-11-29 10:49:10,797 - WARNING - First attempt timeout for https://thechancerydaily.substack.com/feed
+2024-11-29 10:49:10,797 - WARNING - First attempt timeout for https://johnedwinmason.typepad.com/john_edwin_mason_photogra/atom.xml
+2024-11-29 10:49:10,797 - WARNING - First attempt timeout for https://mastodon.cloud/@ericajoy.rss
+2024-11-29 10:49:10,797 - WARNING - First attempt timeout for https://saladinaldronni.blogspot.com/feeds/posts/default
+2024-11-29 10:49:10,797 - WARNING - First attempt timeout for https://mtbannister.github.io/feed.xml
+2024-11-29 10:49:10,797 - WARNING - First attempt timeout for https://www.mississippifreepress.org/feed/
+2024-11-29 10:49:10,797 - WARNING - First attempt timeout for https://www.sldxo.life/feed
+2024-11-29 10:49:10,797 - WARNING - First attempt timeout for https://www.wbez.org/rss/index.xml
+2024-11-29 10:49:10,797 - WARNING - First attempt timeout for https://harper.photos/index.xml
+2024-11-29 10:49:10,797 - WARNING - First attempt timeout for https://buttondown.com/cassidoo/rss
+2024-11-29 10:49:10,797 - WARNING - First attempt timeout for https://buttondown.com/thehypothesis/rss
+2024-11-29 10:49:10,797 - WARNING - First attempt timeout for https://kalebautman.com/rss
+2024-11-29 10:49:10,797 - WARNING - First attempt timeout for https://fixthenews.com/rss/
+2024-11-29 10:49:10,797 - WARNING - First attempt timeout for https://starbreaker.org/feeds/everything.xml
+2024-11-29 10:49:10,797 - WARNING - First attempt timeout for https://www.joanwestenberg.com/rss/
+2024-11-29 10:49:10,797 - WARNING - First attempt timeout for https://omarish.com/posts.xml
+2024-11-29 10:49:10,797 - WARNING - First attempt timeout for https://www.audioaffair.co.uk/blog/feed/
+2024-11-29 10:49:10,797 - WARNING - First attempt timeout for http://feeds.feedburner.com/LilGeneralRules
+2024-11-29 10:49:10,797 - WARNING - First attempt timeout for https://greatreset2022.substack.com/feed
+2024-11-29 10:49:10,797 - WARNING - First attempt timeout for https://www.techpolicy.press/rss/feed.xml
+2024-11-29 10:49:10,797 - WARNING - First attempt timeout for https://osanseviero.github.io/hackerllama/blog/index.xml
+2024-11-29 10:49:10,797 - WARNING - First attempt timeout for https://www.mimeographrevival.com/feed/
+2024-11-29 10:49:10,797 - WARNING - First attempt timeout for https://flamedfury.com/feed.xml
+2024-11-29 10:49:10,797 - WARNING - First attempt timeout for https://www.thewikipedian.net/feed
+2024-11-29 10:49:10,797 - WARNING - First attempt timeout for https://hadardor.substack.com/feed
+2024-11-29 10:49:10,797 - WARNING - First attempt timeout for https://troialog.tumblr.com/rss
+2024-11-29 10:49:10,799 - WARNING - First attempt timeout for https://anjuansimmons.com/feed.xml
+2024-11-29 10:49:10,799 - WARNING - First attempt timeout for http://feeds.politico.com/politico/rss/politicopicks

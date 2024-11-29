@@ -1,0 +1,25 @@
+I want to create a simple python script that will take an OPML file (RSS feed list) and do three things:
+
+1. Dedupe it
+2. Sort it by genre of RSS feed
+3. Create an interface that:
+   - Shows the latest articles
+   - Allows users to accept/change the genre recommendation
+   - Allows users to delete feeds
+   - Stores deleted feeds in a separate file
+4. Extra requirements:
+   - Use listparser for OPML handling
+   - Use rich for the terminal interface
+   - Show a live log window of operations
+   - Check if feeds are dead and move them to a 'dead' category
+   - Implement caching to speed up subsequent runs
+   - Use proper Python project structure with separate modules for:
+     - Cache management
+     - Feed health checking
+     - UI components (layout, log panel, feeds table)
+     - Core OPML management
+   - Follow Python best practices for async operations
+   - Include proper error handling and logging
+   - Use type hints
+
+The implementation should be organized in a traditional Python package structure with separate modules for different responsibilities."
