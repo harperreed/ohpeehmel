@@ -1,4 +1,4 @@
-name: Python Code Linting with Ruff
+name: Run unit tests
 
 on:
     workflow_dispatch: # Allow manual trigger
@@ -6,32 +6,33 @@ on:
         branches:
             - main
         paths:
-            - "app/**"
-            - ".github/workflows/uv-ruff-linter.yml"
+            - "src/**"
+            - ".github/workflows/uv-pytest.yml"
     pull_request:
         branches:
             - main
         paths:
-            - "app/**"
-            - ".github/workflows/uv-ruff-linter.yml"
+            - "sec/**"
+            - ".github/workflows/uv-pytest.yml"
 
 concurrency:
     group: ${{ github.workflow }}-${{ github.ref }}
     cancel-in-progress: true
 
 jobs:
-    ruff-lint:
+    pytest:
         runs-on: ubuntu-latest
 
         steps:
-            - name: Checkout repository source code
+            - name: Checkout code
               uses: actions/checkout@v2
 
-            - name: Install uv package manager (latest version)
+            - name: Install the latest version of uv
               uses: astral-sh/setup-uv@v3
               with:
                   version: "latest"
 
-            - name: Execute Ruff linting check
+            - name: Run tests
+              working-directory: ./app
               run: |
-                  uvx ruff check
+                  uv run pytest
