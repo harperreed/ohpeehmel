@@ -5,7 +5,7 @@ from datetime import datetime
 import feedparser
 from typing import Dict
 import time
-from models.feed import Feed
+from ..models.feed import Feed
 
 console = Console()
 

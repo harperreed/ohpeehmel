@@ -710,3 +710,5 @@
 2024-11-29 11:09:27,858 - INFO - Loaded 90 valid feeds from OPML file
 2024-11-29 11:09:27,858 - WARNING - Found 2 invalid feeds
 2024-11-29 11:10:43,334 - INFO - Removed 0 duplicate feeds
+2024-11-29 11:46:10,521 - WARNING - First attempt failed for https://boehs.org/in/blog.xml: HTTP 403
+2024-11-29 11:46:10,949 - WARNING - First attempt failed for https://sentencing.typepad.com/sentencing_law_and_policy/index.rdf: HTTP 403

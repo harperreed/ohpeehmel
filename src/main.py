@@ -5,9 +5,10 @@ from rich.progress import Progress
 from rich.table import Table
 import logging
 
-from utils.logger import setup_logging
-from services.feed_manager import FeedManager
-from ui.display import display_feeds, display_latest_articles
+from src.utils.logger import setup_logging
+from src.services.feed_manager import FeedManager
+from src.ui.display import display_feeds, display_latest_articles
+
 
 console = Console()
 

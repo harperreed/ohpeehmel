@@ -6,10 +6,11 @@ import logging
 from xml.dom import minidom
 import xml.etree.ElementTree as ET
 
-from ..models.feed import Feed
-from ..utils.xml_helpers import create_opml_tree
-from ..services.genre_detector import GenreDetector
-from ..services.feed_validator import FeedValidator
+from src.models.feed import Feed
+from src.utils.xml_helpers import create_opml_tree
+from src.services.genre_detector import GenreDetector
+from src.services.feed_validator import FeedValidator
+
 
 
 class FeedManager:
