@@ -7,14 +7,18 @@ on:
             - main
         paths:
             - "src/**"
+
             - "tests/**"
+
             - ".github/workflows/uv-ruff-linter.yml"
     pull_request:
         branches:
             - main
         paths:
             - "src/**"
+
             - "tests/**"
+
             - ".github/workflows/uv-ruff-linter.yml"
 
 concurrency:
@@ -37,3 +41,4 @@ jobs:
             - name: Execute Ruff linting check
               run: |
                   uvx ruff check
+
