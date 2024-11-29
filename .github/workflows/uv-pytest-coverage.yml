@@ -1,0 +1,45 @@
+name: UV pytest coverage
+
+on:
+    workflow_dispatch: # Allow manual trigger
+    push:
+        branches:
+            - main
+        paths:
+            - "src/**"
+            - ".github/workflows/pytest-coverage.yml"
+    pull_request:
+        branches:
+            - main
+        paths:
+            - "src/**"
+            - ".github/workflows/uv-pytest-coverage.yml"
+
+concurrency:
+    group: ${{ github.workflow }}-${{ github.ref }}
+    cancel-in-progress: true
+
+jobs:
+    pytest-with-coverage:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v2
+
+            - name: Install the latest version of uv
+              uses: astral-sh/setup-uv@v3
+              with:
+                  version: "latest"
+
+            - name: Build coverage file
+              working-directory: ./app
+              run: |
+                  uv run pytest --cov=. --cov-report=term-missing --cov-report "xml:coverage.xml"
+
+            - name: Pytest coverage comment
+              uses: MishaKav/pytest-coverage-comment@main
+              with:
+                  pytest-xml-coverage-path: ./app/coverage.xml
+                  hide-badge: false
+                  hide-report: false

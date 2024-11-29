@@ -691,3 +691,22 @@
 2024-11-29 10:49:10,797 - WARNING - First attempt timeout for https://troialog.tumblr.com/rss
 2024-11-29 10:49:10,799 - WARNING - First attempt timeout for https://anjuansimmons.com/feed.xml
 2024-11-29 10:49:10,799 - WARNING - First attempt timeout for http://feeds.politico.com/politico/rss/politicopicks
+2024-11-29 10:49:27,272 - ERROR - Error loading OPML file: name 'invalid_feed_list' is not defined
+2024-11-29 10:49:27,274 - ERROR - Application error: name 'invalid_feed_list' is not defined
+2024-11-29 11:05:35,886 - WARNING - First attempt parse error for http://www.notmartha.org/feed/: <unknown>:5:202: not well-formed (invalid token)
+2024-11-29 11:05:35,887 - WARNING - First attempt connection error for http://blog.eiknarf.com/rss: Cannot connect to host blog.eiknarf.com:80 ssl:default [nodename nor servname provided, or not known]
+2024-11-29 11:05:35,894 - WARNING - First attempt connection error for http://blogsv2.qobuz.com/qobuz-blog-en/feed/: Cannot connect to host blogsv2.qobuz.com:80 ssl:default [nodename nor servname provided, or not known]
+2024-11-29 11:06:10,632 - WARNING - First attempt failed for https://boehs.org/in/blog.xml: HTTP 403
+2024-11-29 11:06:10,744 - WARNING - First attempt failed for https://sentencing.typepad.com/sentencing_law_and_policy/index.rdf: HTTP 403
+2024-11-29 11:06:17,356 - ERROR - Error loading OPML file: name 'invalid_feed_list' is not defined
+2024-11-29 11:06:17,358 - ERROR - Application error: name 'invalid_feed_list' is not defined
+2024-11-29 11:06:38,462 - WARNING - First attempt failed for https://boehs.org/in/blog.xml: HTTP 403
+2024-11-29 11:06:42,847 - WARNING - First attempt failed for https://sentencing.typepad.com/sentencing_law_and_policy/index.rdf: HTTP 403
+2024-11-29 11:06:45,715 - ERROR - Error loading OPML file: name 'invalid_feeds' is not defined
+2024-11-29 11:06:45,716 - ERROR - Application error: name 'invalid_feeds' is not defined
+2024-11-29 11:09:17,942 - WARNING - First attempt failed for https://boehs.org/in/blog.xml: HTTP 403
+2024-11-29 11:09:18,778 - WARNING - First attempt failed for https://sentencing.typepad.com/sentencing_law_and_policy/index.rdf: HTTP 403
+2024-11-29 11:09:27,858 - INFO - Saved 1 invalid feeds to invalid_feeds.opml
+2024-11-29 11:09:27,858 - INFO - Loaded 90 valid feeds from OPML file
+2024-11-29 11:09:27,858 - WARNING - Found 2 invalid feeds
+2024-11-29 11:10:43,334 - INFO - Removed 0 duplicate feeds
