@@ -34,4 +34,4 @@ jobs:
 
             - name: Execute Ruff linting check
               run: |
-                  uvx ruff check
+                  uvx ruff check src
