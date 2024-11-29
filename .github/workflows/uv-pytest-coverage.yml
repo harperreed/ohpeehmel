@@ -33,13 +33,13 @@ jobs:
                   version: "latest"
 
             - name: Build coverage file
-              working-directory: ./app
+              working-directory: ./src
               run: |
                   uv run pytest --cov=. --cov-report=term-missing --cov-report "xml:coverage.xml"
 
             - name: Pytest coverage comment
               uses: MishaKav/pytest-coverage-comment@main
               with:
-                  pytest-xml-coverage-path: ./app/coverage.xml
+                  pytest-xml-coverage-path: ./src/coverage.xml
                   hide-badge: false
                   hide-report: false
