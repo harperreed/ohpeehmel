@@ -6,13 +6,13 @@ on:
         branches:
             - main
         paths:
-            - "app/**"
+            - "src/**"
             - ".github/workflows/uv-ruff-linter.yml"
     pull_request:
         branches:
             - main
         paths:
-            - "app/**"
+            - "src/**"
             - ".github/workflows/uv-ruff-linter.yml"
 
 concurrency:
