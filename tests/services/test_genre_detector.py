@@ -1,5 +1,5 @@
 import unittest
-from unittest.mock import patch, MagicMock
+from unittest.mock import patch
 from src.services.genre_detector import GenreDetector
 
 class TestGenreDetector(unittest.TestCase):
