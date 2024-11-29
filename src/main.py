@@ -1,5 +1,4 @@
 import asyncio
-from pathlib import Path
 from rich.console import Console
 from rich.prompt import Prompt, Confirm
 from rich.progress import Progress
