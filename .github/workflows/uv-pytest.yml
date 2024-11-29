@@ -7,12 +7,14 @@ on:
             - main
         paths:
             - "src/**"
+            - "tests/**"
             - ".github/workflows/uv-pytest.yml"
     pull_request:
         branches:
             - main
         paths:
             - "sec/**"
+            - "tests/**"
             - ".github/workflows/uv-pytest.yml"
 
 concurrency:
@@ -33,6 +35,6 @@ jobs:
                   version: "latest"
 
             - name: Run tests
-              working-directory: ./app
+              working-directory: ./src
               run: |
                   uv run pytest
