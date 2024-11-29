@@ -7,12 +7,14 @@ on:
             - main
         paths:
             - "src/**"
+            - "tests/**"
             - ".github/workflows/pytest-coverage.yml"
     pull_request:
         branches:
             - main
         paths:
             - "src/**"
+            - "tests/**"
             - ".github/workflows/uv-pytest-coverage.yml"
 
 concurrency:
