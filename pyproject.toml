@@ -9,4 +9,7 @@ dependencies = [
     "feedparser>=6.0.11",
     "listparser>=0.20",
     "rich>=13.9.4",
+    "ruff>=0.0.1",
+    "pytest>=6.2.5",
+    "pre-commit>=2.15.0",
 ]
