@@ -2,7 +2,7 @@ import aiohttp
 import asyncio
 import feedparser
 import logging
-from typing import Tuple, Optional, Dict
+from typing import Tuple, Optional
 from aiohttp import ClientTimeout
 from urllib.parse import urlparse
 
@@ -93,7 +93,7 @@ class FeedValidator:
                 continue  # Try second attempt
 
         # If we get here, both attempts failed
-        return False, f"Feed validation failed after 2 attempts"
+        return False, "Feed validation failed after 2 attempts"
 
     async def validate_feeds(self, urls: list[str]) -> dict[str, Tuple[bool, Optional[str]]]:
         """Validate multiple feeds concurrently.
