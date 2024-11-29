@@ -2,8 +2,8 @@ import unittest
 from datetime import datetime
 from src.models.feed import Feed
 
-class TestFeed(unittest.TestCase):
 
+class TestFeed(unittest.TestCase):
     def test_feed_instantiation(self):
         # Test basic instantiation with required fields
         feed = Feed(title="Test Feed", url="http://example.com", genre="News")
@@ -14,7 +14,13 @@ class TestFeed(unittest.TestCase):
         self.assertIsNone(feed.deleted_at)
 
         # Test instantiation with optional fields
-        feed = Feed(title="Test Feed", url="http://example.com", genre="News", description="A test feed", deleted_at=datetime(2023, 1, 1))
+        feed = Feed(
+            title="Test Feed",
+            url="http://example.com",
+            genre="News",
+            description="A test feed",
+            deleted_at=datetime(2023, 1, 1),
+        )
         self.assertEqual(feed.description, "A test feed")
         self.assertEqual(feed.deleted_at, datetime(2023, 1, 1))
 
@@ -40,8 +46,14 @@ class TestFeed(unittest.TestCase):
 
     def test_datetime_handling(self):
         # Test datetime handling for deleted_at field
-        feed = Feed(title="Test Feed", url="http://example.com", genre="News", deleted_at=datetime(2023, 1, 1))
+        feed = Feed(
+            title="Test Feed",
+            url="http://example.com",
+            genre="News",
+            deleted_at=datetime(2023, 1, 1),
+        )
         self.assertEqual(feed.deleted_at, datetime(2023, 1, 1))
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     unittest.main()
