@@ -1,9 +1,8 @@
 import listparser
 from datetime import datetime
 from pathlib import Path
-from typing import Dict, List, Set, Tuple, Optional
+from typing import Dict, List, Tuple
 import logging
-import asyncio
 from xml.dom import minidom
 import xml.etree.ElementTree as ET
 
