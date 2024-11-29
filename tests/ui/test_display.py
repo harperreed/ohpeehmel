@@ -1,10 +1,8 @@
 import unittest
 from unittest.mock import patch, MagicMock
-from rich.console import Console
 from rich.table import Table
 from rich.panel import Panel
 from datetime import datetime
-import feedparser
 from src.ui.display import display_feeds, display_latest_articles
 from src.models.feed import Feed
 
