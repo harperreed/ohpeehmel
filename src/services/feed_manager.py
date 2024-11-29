@@ -1,9 +1,8 @@
 import listparser
 from datetime import datetime
 from pathlib import Path
-from typing import Dict, List, Set, Tuple, Optional
+from typing import Dict, List, Tuple
 import logging
-import asyncio
 from xml.dom import minidom
 import xml.etree.ElementTree as ET
 
@@ -74,7 +73,7 @@ class FeedManager:
                         description=f"{feed.description}\nValidation Error: {error}"
                     )
                     invalid_feeds_by_genre[feed.genre].append(invalid_feed)
-                await self._save_invalid_feeds(invalid_feed_list)
+                await self._save_invalid_feeds(invalid_feeds_by_genre)
             
             logging.info(f"Loaded {len(self.feeds)} valid feeds from OPML file")
             logging.warning(f"Found {len(invalid_feeds)} invalid feeds")
@@ -85,15 +84,16 @@ class FeedManager:
             logging.error(f"Error loading OPML file: {str(e)}")
             raise
     
-    async def _save_invalid_feeds(self, invalid_feeds: List[Feed]) -> None:
-        """Save invalid feeds to a separate OPML file."""
-        root = create_opml_tree(invalid_feeds_by_genre, title="Invalid RSS Feeds - Grouped by Original Category")
-        xmlstr = minidom.parseString(ET.tostring(root)).toprettyxml(indent="  ")
-        
-        with open(self.invalid_file, 'w', encoding='utf-8') as f:
-            f.write(xmlstr)
-        
-        logging.info(f"Saved {len(invalid_feeds)} invalid feeds to {self.invalid_file}")
+    async def _save_invalid_feeds(self, invalid_feeds_by_genre: List[Feed]) -> None:
+            """Save invalid feeds to a separate OPML file."""
+            root = create_opml_tree(invalid_feeds_by_genre, title="Invalid RSS Feeds - Grouped by Original Category")
+            xmlstr = minidom.parseString(ET.tostring(root)).toprettyxml(indent="  ")
+            
+            with open(self.invalid_file, 'w', encoding='utf-8') as f:
+                f.write(xmlstr)
+            
+            logging.info(f"Saved {len(invalid_feeds_by_genre)} invalid feeds to {self.invalid_file}")
+
 
 
 
