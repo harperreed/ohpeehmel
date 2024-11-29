@@ -4,16 +4,20 @@ import pytest
 from unittest.mock import patch, AsyncMock
 from src.services.feed_validator import FeedValidator
 
+
 @pytest.mark.asyncio
 async def test_valid_url():
     validator = FeedValidator()
     url = "http://example.com/feed"
     with patch("aiohttp.ClientSession.get", new_callable=AsyncMock) as mock_get:
         mock_get.return_value.__aenter__.return_value.status = 200
-        mock_get.return_value.__aenter__.return_value.text = AsyncMock(return_value="<rss></rss>")
+        mock_get.return_value.__aenter__.return_value.text = AsyncMock(
+            return_value="<rss></rss>"
+        )
         is_valid, error = await validator.validate_feed(url)
         assert is_valid
         assert error is None
+
 
 @pytest.mark.asyncio
 async def test_invalid_url_format():
@@ -23,16 +27,20 @@ async def test_invalid_url_format():
     assert not is_valid
     assert error == "Invalid URL format"
 
+
 @pytest.mark.asyncio
 async def test_url_with_special_characters():
     validator = FeedValidator()
     url = "http://example.com/feed?param=value&other=äöü"
     with patch("aiohttp.ClientSession.get", new_callable=AsyncMock) as mock_get:
         mock_get.return_value.__aenter__.return_value.status = 200
-        mock_get.return_value.__aenter__.return_value.text = AsyncMock(return_value="<rss></rss>")
+        mock_get.return_value.__aenter__.return_value.text = AsyncMock(
+            return_value="<rss></rss>"
+        )
         is_valid, error = await validator.validate_feed(url)
         assert is_valid
         assert error is None
+
 
 @pytest.mark.asyncio
 async def test_url_with_different_protocols():
@@ -40,10 +48,13 @@ async def test_url_with_different_protocols():
     url = "https://example.com/feed"
     with patch("aiohttp.ClientSession.get", new_callable=AsyncMock) as mock_get:
         mock_get.return_value.__aenter__.return_value.status = 200
-        mock_get.return_value.__aenter__.return_value.text = AsyncMock(return_value="<rss></rss>")
+        mock_get.return_value.__aenter__.return_value.text = AsyncMock(
+            return_value="<rss></rss>"
+        )
         is_valid, error = await validator.validate_feed(url)
         assert is_valid
         assert error is None
+
 
 @pytest.mark.asyncio
 async def test_valid_rss_feed():
@@ -51,10 +62,13 @@ async def test_valid_rss_feed():
     url = "http://example.com/rss"
     with patch("aiohttp.ClientSession.get", new_callable=AsyncMock) as mock_get:
         mock_get.return_value.__aenter__.return_value.status = 200
-        mock_get.return_value.__aenter__.return_value.text = AsyncMock(return_value="<rss></rss>")
+        mock_get.return_value.__aenter__.return_value.text = AsyncMock(
+            return_value="<rss></rss>"
+        )
         is_valid, error = await validator.validate_feed(url)
         assert is_valid
         assert error is None
+
 
 @pytest.mark.asyncio
 async def test_valid_atom_feed():
@@ -62,10 +76,13 @@ async def test_valid_atom_feed():
     url = "http://example.com/atom"
     with patch("aiohttp.ClientSession.get", new_callable=AsyncMock) as mock_get:
         mock_get.return_value.__aenter__.return_value.status = 200
-        mock_get.return_value.__aenter__.return_value.text = AsyncMock(return_value="<feed></feed>")
+        mock_get.return_value.__aenter__.return_value.text = AsyncMock(
+            return_value="<feed></feed>"
+        )
         is_valid, error = await validator.validate_feed(url)
         assert is_valid
         assert error is None
+
 
 @pytest.mark.asyncio
 async def test_invalid_xml_feed():
@@ -73,10 +90,13 @@ async def test_invalid_xml_feed():
     url = "http://example.com/invalid"
     with patch("aiohttp.ClientSession.get", new_callable=AsyncMock) as mock_get:
         mock_get.return_value.__aenter__.return_value.status = 200
-        mock_get.return_value.__aenter__.return_value.text = AsyncMock(return_value="<rss><rss>")
+        mock_get.return_value.__aenter__.return_value.text = AsyncMock(
+            return_value="<rss><rss>"
+        )
         is_valid, error = await validator.validate_feed(url)
         assert not is_valid
         assert error is not None
+
 
 @pytest.mark.asyncio
 async def test_empty_feed():
@@ -89,16 +109,20 @@ async def test_empty_feed():
         assert not is_valid
         assert error is not None
 
+
 @pytest.mark.asyncio
 async def test_malformed_feed():
     validator = FeedValidator()
     url = "http://example.com/malformed"
     with patch("aiohttp.ClientSession.get", new_callable=AsyncMock) as mock_get:
         mock_get.return_value.__aenter__.return_value.status = 200
-        mock_get.return_value.__aenter__.return_value.text = AsyncMock(return_value="<rss><channel><title>Test</title></channel>")
+        mock_get.return_value.__aenter__.return_value.text = AsyncMock(
+            return_value="<rss><channel><title>Test</title></channel>"
+        )
         is_valid, error = await validator.validate_feed(url)
         assert not is_valid
         assert error is not None
+
 
 @pytest.mark.asyncio
 async def test_timeout_scenario():
@@ -110,6 +134,7 @@ async def test_timeout_scenario():
         assert not is_valid
         assert error is not None
 
+
 @pytest.mark.asyncio
 async def test_connection_error():
     validator = FeedValidator()
@@ -120,16 +145,20 @@ async def test_connection_error():
         assert not is_valid
         assert error is not None
 
+
 @pytest.mark.asyncio
 async def test_redirect_handling():
     validator = FeedValidator()
     url = "http://example.com/redirect"
     with patch("aiohttp.ClientSession.get", new_callable=AsyncMock) as mock_get:
         mock_get.return_value.__aenter__.return_value.status = 301
-        mock_get.return_value.__aenter__.return_value.headers = {"Location": "http://example.com/new-location"}
+        mock_get.return_value.__aenter__.return_value.headers = {
+            "Location": "http://example.com/new-location"
+        }
         is_valid, error = await validator.validate_feed(url)
         assert not is_valid
         assert error is not None
+
 
 @pytest.mark.asyncio
 async def test_ssl_tls_issue():
@@ -141,15 +170,20 @@ async def test_ssl_tls_issue():
         assert not is_valid
         assert error is not None
 
+
 @pytest.mark.asyncio
 async def test_successful_retry_after_failure():
     validator = FeedValidator()
     url = "http://example.com/retry-success"
     with patch("aiohttp.ClientSession.get", new_callable=AsyncMock) as mock_get:
-        mock_get.side_effect = [aiohttp.ClientError, AsyncMock(status=200, text=AsyncMock(return_value="<rss></rss>"))]
+        mock_get.side_effect = [
+            aiohttp.ClientError,
+            AsyncMock(status=200, text=AsyncMock(return_value="<rss></rss>")),
+        ]
         is_valid, error = await validator.validate_feed(url)
         assert is_valid
         assert error is None
+
 
 @pytest.mark.asyncio
 async def test_multiple_failures():
@@ -161,12 +195,16 @@ async def test_multiple_failures():
         assert not is_valid
         assert error is not None
 
+
 @pytest.mark.asyncio
 async def test_delay_timing_accuracy():
     validator = FeedValidator(retry_delay=0.5)
     url = "http://example.com/delay-timing"
     with patch("aiohttp.ClientSession.get", new_callable=AsyncMock) as mock_get:
-        mock_get.side_effect = [aiohttp.ClientError, AsyncMock(status=200, text=AsyncMock(return_value="<rss></rss>"))]
+        mock_get.side_effect = [
+            aiohttp.ClientError,
+            AsyncMock(status=200, text=AsyncMock(return_value="<rss></rss>")),
+        ]
         is_valid, error = await validator.validate_feed(url)
         assert is_valid
         assert error is None
