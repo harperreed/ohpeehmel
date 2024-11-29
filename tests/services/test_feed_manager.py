@@ -4,6 +4,7 @@ from pathlib import Path
 from src.services.feed_manager import FeedManager
 from src.models.feed import Feed
 
+
 @pytest.fixture
 def valid_opml_content():
     return """<?xml version="1.0" encoding="UTF-8"?>
@@ -17,6 +18,7 @@ def valid_opml_content():
             </outline>
         </body>
     </opml>"""
+
 
 @pytest.fixture
 def invalid_opml_content():
@@ -32,9 +34,11 @@ def invalid_opml_content():
         </body>
     </opml>"""
 
+
 @pytest.fixture
 def feed_manager():
     return FeedManager("feeds.opml")
+
 
 def test_load_valid_opml(feed_manager, valid_opml_content):
     with patch("builtins.open", mock_open(read_data=valid_opml_content)):
@@ -42,20 +46,28 @@ def test_load_valid_opml(feed_manager, valid_opml_content):
         assert valid_count == 1
         assert len(invalid_feeds) == 0
 
+
 def test_load_invalid_opml(feed_manager, invalid_opml_content):
     with patch("builtins.open", mock_open(read_data=invalid_opml_content)):
-        with patch("src.services.feed_validator.FeedValidator.validate_feeds", return_value={"http://invalid.url/": (False, "Invalid feed")}):
+        with patch(
+            "src.services.feed_validator.FeedValidator.validate_feeds",
+            return_value={"http://invalid.url/": (False, "Invalid feed")},
+        ):
             valid_count, invalid_feeds = feed_manager.load_opml()
             assert valid_count == 0
             assert len(invalid_feeds) == 1
             assert "http://invalid.url/" in invalid_feeds
+
 
 def test_save_opml(feed_manager, valid_opml_content):
     with patch("builtins.open", mock_open(read_data=valid_opml_content)):
         feed_manager.load_opml()
         with patch("builtins.open", mock_open()) as mocked_file:
             feed_manager.save_opml(Path("feeds.opml"))
-            mocked_file.assert_called_once_with(Path("feeds.opml"), 'w', encoding='utf-8')
+            mocked_file.assert_called_once_with(
+                Path("feeds.opml"), "w", encoding="utf-8"
+            )
+
 
 def test_add_remove_update_feed(feed_manager, valid_opml_content):
     with patch("builtins.open", mock_open(read_data=valid_opml_content)):
@@ -70,6 +82,7 @@ def test_add_remove_update_feed(feed_manager, valid_opml_content):
         feed_manager.feeds[new_feed.hash] = new_feed
         feed_manager.feeds[new_feed.hash].title = "Updated Feed"
         assert feed_manager.feeds[new_feed.hash].title == "Updated Feed"
+
 
 def test_move_to_deleted(feed_manager, valid_opml_content):
     with patch("builtins.open", mock_open(read_data=valid_opml_content)):
