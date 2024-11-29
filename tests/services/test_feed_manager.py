@@ -3,7 +3,6 @@ from unittest.mock import patch, mock_open
 from pathlib import Path
 from src.services.feed_manager import FeedManager
 from src.models.feed import Feed
-from datetime import datetime
 
 @pytest.fixture
 def valid_opml_content():
