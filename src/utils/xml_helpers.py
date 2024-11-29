@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 from datetime import datetime
 from typing import Dict, List
-from models.feed import Feed
+from ..models.feed import Feed
 
 
 def create_opml_tree(
